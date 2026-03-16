@@ -1,0 +1,15 @@
+### Metadata for Table: temp
+### Source Dataset: Argo float synthetic vertical profiles : BGC data
+
+- platform_number: String. Float unique identifier (WMO). Trajectory ID.
+- platform_type: String. Type of float. Coded per Argo reference table 23.
+- time: Postgres SQL timestamp.
+- latitude: double. Latitude of the station. Units: degrees_north. Standard Name: latitude. Valid Range: -90.0 to 90.0. Fill Value: 99999.0.
+- longitude: double. Longitude of the station. Units: degrees_east. Standard Name: longitude. Valid Range: -180.0 to 180.0. Fill Value: 99999.0.
+- temp: float. Temperature. Units: degrees celcius. Standard Name: sea_water_temperature. Valid Range: -2.5 to 40. Fill Value: 99999.0.
+- pres: float. Pressure below sea level. Can be considered as depth in meters.
+### General Dataset Info (Applies to all variables)
+- Source: Argo float network
+- Data Type: TrajectoryProfile
+- Time Coverage: 2023-08-31 to 2025-08-29
+- Conventions: Argo-3.1, CF-1.6, COARDS, ACDD-1.3
