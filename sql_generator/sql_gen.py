@@ -96,8 +96,8 @@ def retrieve_metadata(query, top_k=3):
 # ========================
 # 8. Generate SQL using GPT (optional)
 # ========================
-# AIzaSyBoc0cYtIfmTdQPafafafa2UAgj9wSLWWquhn9A30- another api key
-gemini_client=client = genai.Client(api_key="AIzaSyCNUafafafalAShOGhd1Qq971ccMAzthyBgP-86l4")
+#  another api key
+gemini_client=client = genai.Client(api_key="-86l4")
 def fire_sql(query, params=None):
     engine = create_engine("postgresql+psycopg2://root:atharva123@localhost:5432/ocean_data")
     cleaned_query = query.strip().rstrip(";")
